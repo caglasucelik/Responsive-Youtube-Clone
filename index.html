@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+  </head>
+  
+
+  <body>
+
+
+    <div class="navbar" style="background-color: rgba(33, 33, 33, 1) ; height: 56px; ">
+      
+        <div >
+       <a><i class="fa-solid fa-bars " style="color: #909090;font-size: larger;"></i></a>
+        <a href="https://www.youtube.com/" >
+          <img src="images/premium.png" height="24px" class="mb-2 ml-3" alt="">
+ </a> 
+ </div></a>
+ <div>
+  <form class="form-inline mx-auto d-flex" style="width: max-content;">
+    <div class="searchboxx">
+      <input class="form-control text-light" style="border: 1px solid rgba(66, 66, 66, 1); width: 500px; background-color: rgba(24, 24, 24, 1);" type="search" placeholder="Search" aria-label="Search">
+    </div>
+    <button class="btn btn-dark" type="submit">
+      <i class="fa-solid fa-magnifying-glass p-0" style="color: #909090;"></i>
+    </button>
+  </form>
+</div>
+
+
+
+      <div>
+        <a href="#" class="">
+        <img src="images/camera.png" height="23px" alt="">
+          
+        </a>
+        <a href="# " class="p-2">
+        <img src="images/grid.png"  height="23px" alt="">
+        </a>
+          <a href="#" class="">
+          <img src="images/alert.png"  height="23px"  alt="">
+              
+          </a>
+
+          <a href="#" class="p-2">
+          
+              <img src="images/profilep.png" class="rounded-circle" height="32px" alt="">
+          </a>
+
+      </div>
+        
+    </div>
+    <section class="d-flex " style="background-color: rgba(24, 24, 24, 1);">
+
+    
+
+      <div class="swidth">
+      <ul class="sidebar-nav list-unstyled " style="margin-top:60px;position:fixed;">
+        <aside id="sidebar" >
+
+              
+        <div>
+        <li class="sidebar-item mt-3 ml-3 " style="">
+            <a href="#" class="abc ">
+              <img src="images/home.png" class="mb-2 " id="iconimages" alt="">
+                <span class=" sidebartext ml-4">Home</span>
+            </a>
+        </li>
+        <li class="sidebar-item ml-3">
+            <a href="#" class="abc">
+              <img src="images/trends.png" class="mb-2 " id="iconimages"  alt="">
+                
+                <span class="sidebartext ml-4">Trends</span>
+            </a>
+        </li>
+        <li class="sidebar-item ml-3">
+          <a href="#" class="abc">
+            <img src="images/subscription .png" class="mb-1" id="iconimages" alt="">
+                
+              
+              <span class="sidebartext ml-4" >Subscription</span>
+          </a>
+      </li>
+
+      <li class="sidebar-item ml-3">
+        <a href="#" class="abc">
+          <img src="images/originals.png" id="iconimages" alt="">
+                
+            <span class="sidebartext ml-4">Originals</span>
+        </a>
+    </li> 
+    <hr style="background-color:rgba(66, 66, 66, 1); width: 90%;height:1px">
+  
+
+        <li class="sidebar-item ml-3">
+          <a href="#" class="abc">
+            <img src="images/library.png" class="mb-1" id="iconimages" alt="">
+                
+              
+              <span class="sidebartext ml-4">Library</span>
+          </a>
+      </li> 
+      <li class="sidebar-item ml-3">
+        <a href="#" class="abc">
+          <img src="images/history.png" class="mb-1"id="iconimages" alt="">
+                
+            <span class="sidebartext ml-4">History</span>
+        </a>
+    </li> 
+    <li class="sidebar-item ml-3">
+      <a href="#" class="abc">
+        <img src="images/yourvideos.png" class="mb-1" id="iconimages" alt="">
+                
+          <span class="sidebartext ml-4">Your videos</span>
+      </a>
+  </li> 
+  <li class="sidebar-item ml-3">
+    <a href="#" class="abc">
+      <img src="images/yourmovies.png" class="mb-1" id="iconimages"alt="">
+        
+        <span class="sidebartext ml-4">Your movies</span>
+    </a>
+</li> 
+<li class="sidebar-item ml-3">
+  <a href="#" class="abc">
+    <img src="images/watchlater.png" class="mb-1" id="iconimages" alt="">
+      
+      <span class="sidebartext ml-4">Watch later</span>
+  </a>
+</li> 
+        </li>
+        <li class="sidebartext sidebar-item ml-3">
+          <a href="#" class="abc collapsed has-dropdown" data-bs-toggle="collapse"
+              data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+              <img src="images/showmore.png" class="mb-1"id="iconimages" alt="">
+                
+              <span class="sidebartext ml-4">Show More</span>
+              <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                <li class="sidebar-item">
+                    <a href="#" class="abc">video-1</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="abc">video-2</a>
+                </li>
+            </ul>
+        </li>
+          </a>
+          <hr style="background-color:rgba(66, 66, 66, 1);width:90% ;height:1px">
+   <p class="sidebartext text-uppercase ml-3" style="font-family: Roboto, sans-serif;font-weight: 400;font-size: 14px;color:rgba(170, 170, 170, 1);">Subscription</p>
+        <li class="sidebartext sidebar-item">
+          <a href="#" class="abc">
+           <img src="images/envato.png" class="rounded-circle ml-2" height="24px" alt="">
+              
+              <span class="ml-4">Envato</span>
+          </a>
+      </li> 
+      <li class="sidebartext sidebar-item ml-3">
+        <a href="#" class="abc">
+        <img src="images/lp.png" height="24px" class="rounded-circle" alt="">
+            
+            <span class="ml-4">LP</span>
+        </a>
+    </li> 
+    <li class="sidebartext sidebar-item ml-3">
+      <a href="#" class="abc">
+       <img src="images/figma.jpg" height="24px" class="rounded-circle" alt="">
+          <span class="ml-4">Figma</span>
+      </a>
+  </li> 
+  <li class="sidebartext sidebar-item ml-3">
+    <a href="#" class="abc">
+    <img src="images/octAcademy.jpg" height="24px" class="rounded-circle" alt="">  
+        <span class="ml-4">OctAcademy</span>
+    </a>
+</li> 
+<li class="sidebartext sidebar-item ml-3">
+  <a href="#" class="abc">
+  <img src="images/brocode.jpg" class="rounded-circle" height="24px" alt="">    
+      <span class="ml-4" >Bro Code</span>
+  </a>
+</li> 
+<li class="sidebartext sidebar-item ml-3">
+  <a href="#" class="abc collapsed has-dropdown" data-bs-toggle="collapse"
+      data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+  
+      <img src="images/showmore.png" height="24px" alt="">
+      <span class="ml-4">Show 47 more</span>
+      <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+        <li class="sidebar-item">
+            <a href="#" class="abc">video-1</a>
+        </li>
+    </ul>
+</li>
+  </a>
+  <hr style="background-color:rgba(66, 66, 66, 1);width:100% ;height:1px">
+  <p class="sidebartext text-uppercase ml-3" style="font-family: Roboto, sans-serif; font-weight: 400;font-size: 14px;color:rgba(170, 170, 170, 1);">More From Youtube</p>
+  
+  <li class="sidebar-item ml-3">
+    <a href="#" class="abc">
+      <img src="images/gaming.png" id="iconimages" alt="">   
+        <span class="sidebartext ml-4">Gaming</span>
+    </a>
+</li> 
+        </li>
+    </ul>
+  </div>
+</aside>
+ </div>
+
+
+  <div class="h-100" style="background-color:rgba(24, 24, 24, 1)">
+
+    <div class="wrapper-nav " style="margin-top: 60px;">
+        <nav class="nav nav-tabs list mt-2" id="myTab" role="tablist">
+            
+            <a class="nav-item nav-link mr-2 ml-2 mb-2  text-center data-bs-target" style="background-color:rgba(66, 66, 66, 1);border-radius: 900px;font-family: Roboto; font-weight: 400;font-size: 14px;color: rgba(255, 255, 255, 1);" data-bs-target="#tab2" role="tab" data-bs-toggle="tab">All</a>
+            <a class="nav-item nav-link mr-2 ml-2 mb-2  text-center data-bs-target" style="background-color:rgba(66, 66, 66, 1);border-radius: 900px;font-family: Roboto; font-weight: 400;font-size: 14px;color:rgba(255, 255, 255, 1)" data-bs-target="#tab2" role="tab" data-bs-toggle="tab">Yatchs</a>
+            <a class="nav-item nav-link mr-2 ml-2 mb-2  text-center data-bs-target" style="background-color:rgba(66, 66, 66, 1);border-radius: 900px;font-family: Roboto; font-weight: 400;font-size: 14px;color: rgba(255, 255, 255, 1);" data-bs-target="#tab2" role="tab" data-bs-toggle="tab">Boats</a>
+            <a class="nav-item nav-link mr-2 ml-2 mb-2  text-center data-bs-target" style="background-color:rgba(66, 66, 66, 1);border-radius: 900px;font-family: Roboto; font-weight: 400;font-size: 14px;color: rgba(255, 255, 255, 1);" data-bs-target="#tab2" role="tab" data-bs-toggle="tab">RVs</a>
+            <a class="nav-item nav-link mr-2 ml-2 mb-2  text-center data-bs-target" style="background-color:rgba(66, 66, 66, 1);border-radius: 900px;font-family: Roboto; font-weight: 400;font-size: 14px;color: rgba(255, 255, 255, 1);" data-bs-target="#tab2" role="tab" data-bs-toggle="tab">Electrical Engineering</a>
+            <a class="nav-item nav-link mr-2 ml-2 mb-2  text-center data-bs-target" style="background-color:rgba(66, 66, 66, 1);border-radius: 900px;font-family: Roboto; font-weight: 400;font-size: 14px;color: rgba(255, 255, 255, 1);" data-bs-target="#tab2" role="tab" data-bs-toggle="tab">Photocopier</a>
+            <a class="nav-item nav-link mr-2 ml-2 mb-2  text-center data-bs-target" style="background-color:rgba(66, 66, 66, 1);border-radius: 900px;font-family: Roboto; font-weight: 400;font-size: 14px;color: rgba(255, 255, 255, 1);" data-bs-target="#tab2" role="tab" data-bs-toggle="tab">Cookery</a>
+            <a class="nav-item nav-link mr-2 ml-2 mb-2  text-center data-bs-target" style="background-color:rgba(66, 66, 66, 1);border-radius: 900px;font-family: Roboto; font-weight: 400;font-size: 14px;color: rgba(255, 255, 255, 1);" data-bs-target="#tab2" role="tab" data-bs-toggle="tab">Apple</a>
+            <a class="nav-item nav-link mr-2 ml-2 mb-2  text-center data-bs-target" style="background-color:rgba(66, 66, 66, 1);border-radius: 900px;font-family: Roboto; font-weight: 400;font-size: 14px;color: rgba(255, 255, 255, 1);" data-bs-target="#tab2" role="tab" data-bs-toggle="tab">CSS</a>
+            <a class="nav-item nav-link mr-2 ml-2 mb-2  text-center data-bs-target" style="background-color:rgba(66, 66, 66, 1);border-radius: 900px;font-family: Roboto; font-weight: 400;font-size: 14px;color: rgba(255, 255, 255, 1);" data-bs-target="#tab2" role="tab" data-bs-toggle="tab">Figma</a>
+            <a class="nav-item nav-link mr-2 ml-2 mb-2  text-center data-bs-target" style="background-color:rgba(66, 66, 66, 1);border-radius: 900px;font-family: Roboto; font-weight: 400;font-size: 14px;color: rgba(255, 255, 255, 1);" data-bs-target="#tab2" role="tab" data-bs-toggle="tab">Astronomy</a>
+
+
+        </nav>
+    </div>
+  <section >
+      <div class = "row ml-3 mr-3 pt-1 ">
+        <div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+          <div class="card " style="background-color:rgba(24, 24, 24, 1);">
+        <img src="images/1.png" alt="" class="card-img-top">
+        <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+          <div>
+          <img class="rounded-circle" src="images/figma.jpg" alt="" style="width: 36px;height: 36px;"></div>
+          <div>
+            <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">Config 2024: A look inside teenage engineering | Figma</p>
+            <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);">Figma <span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+              </svg>
+              </span><br>44K views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+                </svg>1 month ago</span></p>
+          </div>
+        </div>
+        </div>
+      </div>
+          <div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+                <div class="card " style="background-color:rgba(24, 24, 24, 1);">
+              <img src="images/2.png" alt="" class="card-img-top">
+              <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+                <div>
+                <img class="rounded-circle" src="images/envato.png" alt="" style="width: 36px;height: 36px;"></div>
+                <div>
+                  <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">Graphic Design Trends 2024 </p>
+                  <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);"> <br>Envato <span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+                    </svg>
+                    </span><br>36K views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+                      </svg>8 month ago</span></p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+              <div class="card " style="background-color:rgba(24, 24, 24, 1);">
+            <img src="images/3.png" alt="" class="card-img-top">
+            <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+              <div>
+              <img class="rounded-circle" src="images/lp.png" alt="" style="width: 36px;height: 36px;"></div>
+              <div>
+                <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">LP - Lost On You (Live) </p>
+                <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);"> <br>LP <span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+                  </svg>
+                  </span><br>1.3B views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+                    </svg>8 years ago</span></p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+          <div class="card " style="background-color:rgba(24, 24, 24, 1);">
+            <img src="images/4.png" alt="" class="card-img-top">
+            <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+              <div>
+              <img class="rounded-circle" src="images/kaleo.jpg" alt="" style="width: 36px;height: 36px;"></div>
+              <div>
+                <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">KALEO "Broken Bones" [Official Audio]</p>
+                <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);">KALEO <span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+                  </svg>
+                  </span><br>31M views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+                    </svg>8 years ago</span></p>
+              </div>
+            </div>
+            </div>
+          
+  </section>
+<section>
+  <div class = "row ml-3 mr-3">
+    <div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+    <div class="card " style="background-color:rgba(24, 24, 24, 1);">
+      <img src="images/5.png" alt="" class="card-img-top">
+      <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+        <div>
+        <img class="rounded-circle" src="images/groverwashington.jpg" alt="" style="width: 36px;height: 36px;"></div>
+        <div>
+          <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">Just the Two of Us (feat. Bill Withers)</p>
+          <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);">Grover Washington, Jr. - Konu <span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+            </svg>
+            </span><br>129M views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+              </svg>7 years ago</span></p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+      <div class="card" style="background-color: rgba(24, 24, 24, 1);">
+        <img src="images/6.png" alt="" class="card-img-top">
+        <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+          <div>
+          <img class="rounded-circle" src="images/octAcademy.jpg" alt="" style="width: 36px;height: 36px;"></div>
+          <div>
+            <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">Angular 18 Full Course - Complete Zero to Hero Angular 18 full Tutorial </p>
+            <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);">OctAcademy <span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+              </svg>
+              </span><br>49K views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+                </svg>21 Hours ago</span></p>
+          </div>
+        </div>
+        </div>
+      </div>
+<div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+    <div class="card " style="background-color:
+rgba(24, 24, 24, 1);">
+      <img src="images/7.png" alt="" class="card-img-top">
+      <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+        <div>
+        <img class="rounded-circle" src="images/nownext.jpg" alt="" style="width: 36px;height: 36px;"></div>
+        <div>
+          <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">Mysteries of the Universe | Space Documentary 2023</p>
+          <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);">Now Next <span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+            </svg>
+            </span><br>1.3M views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+              </svg>1 year ago</span></p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+      <div class="card " style="background-color:
+  rgba(24, 24, 24, 1);">
+        <img src="images/8.png" alt="" class="card-img-top">
+        <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+          <div>
+          <img class="rounded-circle" src="images/brocode.jpg" alt="" style="width: 36px;height: 36px;"></div>
+          <div>
+            <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">JavaScript Full Course for free🌐 (2024)</p>
+            <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);">Bro Code <span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+              </svg>
+              </span><br>1.7M views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+                </svg>7 month ago</span></p>
+          </div>
+        </div>yhj
+        </div>
+      </div>
+    
+</section>
+<section >
+  <div class = "row ml-3 mr-3 pt-1 ">
+    <div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+      <div class="card " style="background-color:rgba(24, 24, 24, 1);">
+    <img src="images/9.png" alt="" class="card-img-top">
+    <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+      <div>
+      <img class="rounded-circle" src="images/eurovision .jpg" alt="" style="width: 36px;height: 36px;"></div>
+      <div>
+        <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">maNga - We Could Be The Same - Turkey 🇹🇷 - Grand Final - Eurovision 2010</p>
+        <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);">
+          Eurovision Song Contest
+          <span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+          </svg>
+          </span><br>23M views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+            </svg>7 years ago</span></p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+    <div class="card " style="background-color:rgba(24, 24, 24, 1);">
+  <img src="images/10.png" alt="" class="card-img-top">
+  <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+    <div>
+    <img class="rounded-circle" src="images/amy.jpg" alt="" style="width: 36px;height: 36px;"></div>
+    <div>
+      <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">Amy Winehouse - Back To Black</p>
+      <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);"> <br>Amy Winehouse<span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+        </svg>
+        </span><br>36K views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+          </svg>8 month ago</span></p>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+ 
+    <div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+      <div class="card " style="background-color:
+  rgba(24, 24, 24, 1);">
+        <img src="images/11.png" alt="" class="card-img-top">
+        <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+          <div>
+          <img class="rounded-circle" src="images/radiohead.jpg" alt="" style="width: 36px;height: 36px;"></div>
+          <div>
+            <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">Radiohead - Morning Bell (Live in Nürnberg, June 2001)</p>
+            <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);">Radiohead<span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+              </svg>
+              </span><br>785K views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+                </svg>2 years ago</span></p>
+          </div>
+        </div>
+        </div>
+      </div>
+
+<div class="col-lg-3  col-md-6 col-sm-12 mb-3">
+  <div class="card " style="background-color:
+rgba(24, 24, 24, 1);">
+    <img src="images/12.png" alt="" class="card-img-top">
+    <div class="card-body d-flex" style="font-family: Roboto, sans-serif;">
+      <div>
+      <img class="rounded-circle" src="images/thewhitebuffolo.jpg" alt="" style="width: 36px;height: 36px;"></div>
+      <div>
+        <p class="ml-2" style="font-size: 11px;font-weight: 700;color: rgba(255, 255, 255, 1);">THE WHITE BUFFALO - "Oh Darlin' What Have I Done" (Sons of Anarchy: Season 6, Episode 10) 2001)</p>
+        <p style="font-size: 10px;font-weight:400;color: rgba(144, 144, 144, 1);">The White Buffolo<span><svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0.583328C2.50999 0.583328 0.0833282 3.00999 0.0833282 6C0.0833282 8.99 2.50999 11.4167 5.5 11.4167C8.49 11.4167 10.9167 8.99 10.9167 6C10.9167 3.00999 8.49 0.583328 5.5 0.583328ZM4.37333 9.21208L1.69208 6.53083L2.8025 5.42041L4.37333 6.99125L8.35458 3.00999L9.465 4.12041L4.37333 9.21208Z" fill="#909090"/>
+          </svg>
+          </span><br>5.2M views <span> <svg width="4" height="3" viewBox="0 0 4 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.855469 1.59375C0.855469 1.28516 0.955078 1.0332 1.1543 0.837891C1.35352 0.642578 1.61523 0.544922 1.93945 0.544922C2.25977 0.544922 2.51953 0.640625 2.71875 0.832031C2.91797 1.01953 3.02148 1.26367 3.0293 1.56445V1.79883C3.0293 2.11523 2.92969 2.36719 2.73047 2.55469C2.53125 2.74219 2.26953 2.83594 1.94531 2.83594C1.61719 2.83594 1.35352 2.74023 1.1543 2.54883C0.955078 2.35742 0.855469 2.10352 0.855469 1.78711V1.59375Z" fill="#909090"/>
+            </svg>10 years ago</span></p>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+</div>
+    </section>
+  
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
